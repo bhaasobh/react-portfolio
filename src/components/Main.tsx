@@ -36,6 +36,16 @@ function Main() {
             </a>
           </div>
         </div>
+          {/* קוד QR לקובץ קורות חיים */}
+        <div className="qr-section">
+          <h3>Download My CV</h3>
+          <p>Scan the QR code to download:</p>
+          <img
+            src="https://bahaa-profile-storage.s3.il-central-1.amazonaws.com/images/cv-code.jpg"
+            alt="QR Code to download CV"
+            className="qr-image"
+          />
+        </div>
       </div>
     </div>
   );
